@@ -1,0 +1,199 @@
+
+
+.row{
+	width:100%;
+	background-color:#ccc;
+}
+
+.row.row-top{
+	height:80px;
+	background-color:#ccc;
+	box-sizing:border-box;
+	border:1px solid grey;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+
+.row.nav-container {
+	background-color:black;
+	height:120px;
+	display:flex;
+	justify-content:flex-end;
+	align-items:flex-end;
+	border-bottom:3px solid yellow;
+	box-sizing: border-box;
+}
+
+.nav-link h1{ /*how to create a justify-content:flex-start case*/
+	font-size:35px;
+	font-family:Roboto Slab;
+	color:yellow;
+}
+
+.nav-link.bold a{
+	width:20%;
+	font-family:Impact;
+	font-size:25px;
+	color:white;
+	text-decoration:none;
+	margin:30px;
+
+}
+
+.nav-link.small a{
+	width:20%;
+	font-family:Helvetica;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+	margin:30px;
+}
+
+.nav-link{
+	padding-bottom:15px;
+	margin-left:40px;
+}
+
+.nav-link:first-child{ /*how to create a justify-content:flex-start case*/
+	align-self:flex-start;
+	margin-right: 200px;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+.tagline p{
+	font-family:Lobster;
+	font-weight:bold;
+	font-style:italic;
+	font-size:30px;
+	color:black;
+	text-align:center;
+
+}
+
+p .strikethrough{
+	color:grey;
+	text-decoration:line-through;
+}
+
+
+p .underline{
+	border-bottom: 2px solid yellow;
+
+}
+
+.image-container{
+	
+	background:url(/images/coworking.jpg) no-repeat center center;
+	background-color:#ddeaff;
+	background-size:cover;
+	height:600px;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+.card{
+	background-color:white;
+	box-shadow: 2px 2px 2px 2px lightgrey;
+	display:flex;
+	height:350px;
+	width:300px;
+	margin-right:50px;
+	padding:25px;
+
+}
+
+.card-title{
+	font-family:Helvetica;
+	font-size: 30px;
+	font-weight:bold;
+}
+
+.card-text{
+	font-family:Helvetica;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.btn.btn-primary{ /*how to align element in the middle of x-axis*/
+	margin-top:20px;
+	box-shadow: 0px 2px #c6ce25;
+	border:none;
+	border-radius:5px;
+	background: yellow;
+	font-family: impact;
+	font-size: 17px;
+	color:black;
+	height:45px;
+	width:230px; 
+}
+
+.btn.btn-primary:hover {
+	background-color:#f7e81b;
+}
+
+.flex-container {
+	background-color:white;
+	display:flex;
+	border:none;
+}
+
+.col {
+	width:30%;
+	height:400px;
+	border-right:0.5px solid lightgrey;
+	padding:30px;
+}
+
+.col-body{
+	margin:0px 60px 0px 60px;
+}
+
+.col-title{
+	font-family:Roboto Slab;
+	font-size: 30px;
+}
+
+.col-text{
+	font-family:Helvetica;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.btn.btn-secondary{ /*how to align element in the middle of x-axis*/
+	margin-top:20px;
+	box-shadow: 0px 2px #949ba8;
+	border:none;
+	border-radius:5px;
+	background: lightgrey;
+	font-family: impact;
+	font-size: 17px;
+	color:black;
+	height:45px;
+	width:230px; 
+}
+
+.btn.btn-secondary:hover {
+	background-color:#a5a59f;
+}
+
+
+.footer{
+	background-color: black;
+	height:50px;
+}
+
+.footer p{ /*how to align element in the middle of x-axis*/
+	font-family:Helvetica;
+	font-size:17px;
+	color:white;
+	text-align:left;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
