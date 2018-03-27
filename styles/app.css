@@ -1,7 +1,7 @@
 
 
 .row{
-	width:100%;
+	min-width:100%;
 	background-color:#ccc;
 }
 
@@ -20,6 +20,7 @@
 	background-color:black;
 	height:120px;
 	display:flex;
+	flex-direction: row;
 	justify-content:flex-end;
 	align-items:flex-end;
 	border-bottom:3px solid yellow;
@@ -30,6 +31,7 @@
 	font-size:35px;
 	font-family:Roboto Slab;
 	color:yellow;
+	text-decoration:none;
 }
 
 .nav-link.bold a{
@@ -54,11 +56,13 @@
 .nav-link{
 	padding-bottom:15px;
 	margin-left:40px;
+	text-align: left;
 }
 
 .nav-link:first-child{ /*how to create a justify-content:flex-start case*/
+	width:20%;
 	align-self:flex-start;
-	margin-right: 200px;
+	margin-right:160px;
 }
 
 .nav-link:hover {
@@ -87,11 +91,10 @@ p .underline{
 }
 
 .image-container{
-	
-	background:url(/images/coworking.jpg) no-repeat center center;
+	background:url('../images/coworking.jpg') no-repeat center center;
 	background-color:#ddeaff;
 	background-size:cover;
-	height:600px;
+	height:630px;
 	display:flex;
 	justify-content:flex-end;
 	align-items:center;
